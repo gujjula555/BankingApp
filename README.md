@@ -1,7 +1,7 @@
 # BankingApp
 **Banking UI App with Jetpack Compose**
 
-_Overview_
+_Overview_  
 This Android app is a banking UI built using Jetpack Compose, with a focus on providing an intuitive and visually appealing user interface. The app is designed to showcase the power and flexibility of Jetpack Compose for creating modern Android UIs.
 
 **_Screenshots_**
