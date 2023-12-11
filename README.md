@@ -10,7 +10,7 @@ This Android app is a banking UI built using Jetpack Compose, with a focus on pr
     <img src="https://github.com/jaypatel208/BankingApp/assets/83394162/2694ced2-e0d4-4f08-b57f-5b87efdd1111" alt="Dark Mode Screenshot" width="48%"/>
 </div>
 
-Features:  
+**Features:**  
 Modern UI: The app features a clean and modern user interface, providing a seamless and enjoyable banking experience.
 Dark Mode Support: Enjoy a comfortable banking experience in both light and dark modes, adapting to your device's settings.
 Future Work: The app is an ongoing project, with future updates planned to implement additional features and further enhance the UI.
