@@ -7,6 +7,7 @@ This Android app is a banking UI built using Jetpack Compose, with a focus on pr
 **_Screenshots_**
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/jaypatel208/BankingApp/assets/83394162/1aa56c22-bac2-4956-a840-68429877a51a" alt="Light Mode Screenshot" width="300"/>
+    <div style="width: 30px;"></div>
     <img src="https://github.com/jaypatel208/BankingApp/assets/83394162/2694ced2-e0d4-4f08-b57f-5b87efdd1111" alt="Dark Mode Screenshot" width="300"/>
 </div>
 
