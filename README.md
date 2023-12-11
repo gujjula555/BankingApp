@@ -18,7 +18,7 @@ Future Work: The app is an ongoing project, with future updates planned to imple
 **APK Download:**  
 For those interested in exploring the app, you can download the APK file [here](https://drive.google.com/drive/folders/1P7OKyzBz6ZQ0_pYMO0z95UN_bZlII5gr?usp=sharing).
 
-*Getting Started*  
+**Getting Started:**  
 _Prerequisites_
 Android Studio
 *Installation*
@@ -26,7 +26,7 @@ Clone the repository: git clone https://github.com/jaypatel208/BankingApp
 Open the project in Android Studio.
 Build and run the app on an Android emulator or device.
 
-*Dark Mode Toggle*  
+**Dark Mode Toggle:**  
 To toggle between light and dark modes, use the system-wide dark mode setting on your device.
 
 __Future Work__  
