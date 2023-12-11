@@ -11,7 +11,6 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.jay.bankingappui.components.BottomNavigationBar
 import dev.jay.bankingappui.components.CardsComponent
@@ -19,7 +18,6 @@ import dev.jay.bankingappui.components.CurrenciesComponent
 import dev.jay.bankingappui.components.FinanceComponent
 import dev.jay.bankingappui.components.TopBar
 
-@Preview
 @Composable
 fun HomeScreen() {
     Scaffold(bottomBar = {
