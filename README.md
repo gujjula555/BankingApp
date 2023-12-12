@@ -17,10 +17,10 @@ Dark Mode Support: Enjoy a comfortable banking experience in both light and dark
 Future Work: The app is an ongoing project, with future updates planned to implement additional features and further enhance the UI.
 
 **Getting Started:**  
-Prerequisites;  
+Prerequisites:  
 Android Studio  
 
-*Installation*
+Installation:  
 Clone the repository: git clone https://github.com/jaypatel208/BankingApp
 Open the project in Android Studio.
 Build and run the app on an Android emulator or device.
