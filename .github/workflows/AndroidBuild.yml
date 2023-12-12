@@ -1,5 +1,7 @@
 name: Banking_Build
 on:
+  pull_request :
+    branches : [ master ]
   push :
     branch : [ master ]
 
