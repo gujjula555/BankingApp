@@ -37,6 +37,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
@@ -59,7 +60,7 @@ fun TopBar() {
     ) {
         Column {
             Text(
-                text = "Wallet",
+                text = stringResource(id = R.string.wallet),
                 fontSize = 17.sp,
                 color = MaterialTheme.colorScheme.onBackground
             )
@@ -67,7 +68,7 @@ fun TopBar() {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "₹ 169",
+                text = "${stringResource(id = R.string.rupee_symbol)} ${stringResource(id = R.string.wallet_amount)}",
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground
@@ -82,7 +83,7 @@ fun TopBar() {
         ) {
             Icon(
                 imageVector = Icons.Filled.Search,
-                contentDescription = "Search",
+                contentDescription = stringResource(id = R.string.search),
                 tint = MaterialTheme.colorScheme.onSecondaryContainer
             )
         }
@@ -104,7 +105,7 @@ fun CardItem(index: Int) {
     val lastItemPaddingEnd = (16.dp).takeIf { index == cardItems.size - 1 } ?: 0.dp
 
     val image =
-        if (card.cardType == "MasterCard") painterResource(id = R.drawable.mastercard)
+        if (stringResource(id = card.cardType) == stringResource(id = R.string.mastercard)) painterResource(id = R.drawable.mastercard)
         else painterResource(id = R.drawable.rupay)
 
     Box(
@@ -137,7 +138,7 @@ fun CardItem(index: Int) {
             )
 
             Text(
-                text = card.cardBalance,
+                text = "${stringResource(id = R.string.rupee_symbol)} ${card.cardBalance}",
                 color = Color.White,
                 fontSize = 17.sp,
                 fontWeight = FontWeight.Bold
@@ -157,7 +158,7 @@ fun CardItem(index: Int) {
 fun FinanceComponent() {
     Column {
         Text(
-            text = "Finance",
+            text = stringResource(id = R.string.finance),
             fontSize = 24.sp,
             color = MaterialTheme.colorScheme.onBackground,
             fontWeight = FontWeight.Bold,
@@ -194,13 +195,13 @@ fun FinanceItem(index: Int) {
             ) {
                 Icon(
                     imageVector = finance.icon,
-                    contentDescription = finance.name,
+                    contentDescription = stringResource(id = finance.name),
                     tint = Color.White
                 )
             }
 
             Text(
-                text = finance.name,
+                text = stringResource(id = finance.name),
                 color = MaterialTheme.colorScheme.onSecondaryContainer,
                 fontWeight = FontWeight.SemiBold,
                 fontSize = 15.sp
@@ -246,14 +247,14 @@ fun CurrenciesComponent() {
                     }) {
                     Icon(
                         imageVector = iconState,
-                        contentDescription = "Currencies",
+                        contentDescription = stringResource(id = R.string.currencies),
                         modifier = Modifier.size(25.dp),
                         tint = MaterialTheme.colorScheme.onSecondary
                     )
                 }
                 Spacer(modifier = Modifier.width(20.dp))
                 Text(
-                    text = "Currencies",
+                    text = stringResource(id = R.string.currencies),
                     fontSize = 20.sp,
                     color = MaterialTheme.colorScheme.onSecondaryContainer,
                     fontWeight = FontWeight.Bold
@@ -286,7 +287,7 @@ fun CurrenciesComponent() {
 
                         Row(modifier = Modifier.fillMaxWidth()) {
                             Text(
-                                text = "Currency",
+                                text = stringResource(id = R.string.currency),
                                 modifier = Modifier.width(width),
                                 fontWeight = FontWeight.SemiBold,
                                 fontSize = 16.sp,
@@ -294,7 +295,7 @@ fun CurrenciesComponent() {
                             )
 
                             Text(
-                                text = "Buy",
+                                text = stringResource(id = R.string.buy),
                                 modifier = Modifier.width(width),
                                 fontWeight = FontWeight.SemiBold,
                                 fontSize = 16.sp,
@@ -303,7 +304,7 @@ fun CurrenciesComponent() {
                             )
 
                             Text(
-                                text = "Sell",
+                                text = stringResource(id = R.string.sell),
                                 modifier = Modifier.width(width),
                                 fontWeight = FontWeight.SemiBold,
                                 fontSize = 16.sp,
@@ -345,12 +346,12 @@ fun CurrencyItem(index: Int, width: Dp) {
                 Icon(
                     modifier = Modifier.size(18.dp),
                     imageVector = currency.icon,
-                    contentDescription = currency.name,
+                    contentDescription = stringResource(id = currency.name),
                     tint = Color.White
                 )
             }
             Text(
-                text = currency.name,
+                text = stringResource(id = currency.name),
                 modifier = Modifier
                     .padding(start = 10.dp),
                 fontWeight = FontWeight.Bold,
@@ -360,7 +361,7 @@ fun CurrencyItem(index: Int, width: Dp) {
             )
         }
         Text(
-            text = "₹ ${currency.buy}",
+            text = "${stringResource(id = R.string.rupee_symbol)}${currency.buy}",
             modifier = Modifier
                 .width(width)
                 .padding(start = 10.dp),
@@ -370,7 +371,7 @@ fun CurrencyItem(index: Int, width: Dp) {
             textAlign = TextAlign.End
         )
         Text(
-            text = "₹ ${currency.sell}",
+            text = "${stringResource(id = R.string.rupee_symbol)}${currency.sell}",
             modifier = Modifier
                 .width(width)
                 .padding(start = 10.dp),

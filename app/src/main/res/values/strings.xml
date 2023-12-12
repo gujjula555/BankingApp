@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Banking</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="wallet">Wallet</string>
+    <string name="wallet_amount">169</string>
+    <string name="search">Search</string>
+    <string name="mastercard">MasterCard</string>
+    <string name="rupay">RuPay</string>
+    <string name="finance">Finance</string>
+    <string name="currencies">Currencies</string>
+    <string name="currency">Currency</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="inr">INR</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="gbp">GBP</string>
+    <string name="jpy">JPY</string>
+    <string name="my_career">My\nCareer</string>
+    <string name="my_wallet">My\nWallet</string>
+    <string name="finance_analytics">Finance\nAnalytics</string>
+    <string name="my_transactions">My\nTransactions</string>
 </resources>
