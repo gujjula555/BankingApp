@@ -16,16 +16,20 @@ Modern UI: The app features a clean and modern user interface, providing a seaml
 Dark Mode Support: Enjoy a comfortable banking experience in both light and dark modes, adapting to your device's settings.
 Future Work: The app is an ongoing project, with future updates planned to implement additional features and further enhance the UI.
 
-**APK Download:**  
-For those interested in exploring the app, you can download the APK file [here](https://grabify.link/DNIBVJ).
-
 **Getting Started:**  
-_Prerequisites_
+_Prerequisites_  
 Android Studio
 *Installation*
 Clone the repository: git clone https://github.com/jaypatel208/BankingApp
 Open the project in Android Studio.
 Build and run the app on an Android emulator or device.
+
+**CI/CD Workflow:**
+This project includes a CI/CD workflow using GitHub Actions. The workflow is triggered when:
+- A pull request is opened or updated for the `master` branch.
+- A push is made directly to the `master` branch.
+
+The workflow automates the release of artifacts, in this case, the APK file for Android. With each push to the repository or pull request to the `master` branch, the workflow triggers the necessary steps to build and release the latest version of the app.
 
 **Dark Mode Toggle:**  
 To toggle between light and dark modes, use the system-wide dark mode setting on your device.
@@ -36,5 +40,8 @@ Continuously improve and optimize the UI for a better user experience.
 Address user feedback and bug reports.
 
 Feel free to provide feedback and suggestions for further improvements!
+
+**Inspired from: **  
+[Ahmed_Guedmioui](https://www.youtube.com/@android_devs_academy)
 
 Note: This README will be updated as the app evolves, so stay tuned for more exciting features and enhancements.
