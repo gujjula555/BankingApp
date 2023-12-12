@@ -20,7 +20,7 @@ Future Work: The app is an ongoing project, with future updates planned to imple
 Prerequisites:  
 Android Studio  
 
-Installation:  
+**Installation:**  
 Clone the repository: git clone https://github.com/jaypatel208/BankingApp
 Open the project in Android Studio.
 Build and run the app on an Android emulator or device.
