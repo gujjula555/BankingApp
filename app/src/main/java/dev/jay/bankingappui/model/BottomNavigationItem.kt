@@ -10,29 +10,30 @@ import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Notifications
 import androidx.compose.material.icons.outlined.Wallet
 import androidx.compose.ui.graphics.vector.ImageVector
+import dev.jay.bankingappui.R
 
 data class BottomNavigationItem(
-    val title: String, val unselectedIcon: ImageVector, val selectedIcon: ImageVector
+    val title: Int, val unselectedIcon: ImageVector, val selectedIcon: ImageVector
 )
 
 val bottomNavigationItems = listOf(
     BottomNavigationItem(
-        title = "Home",
+        title = R.string.home,
         selectedIcon = Icons.Filled.Home,
         unselectedIcon = Icons.Outlined.Home
     ),
     BottomNavigationItem(
-        title = "Wallet",
+        title = R.string.wallet,
         selectedIcon = Icons.Filled.Wallet,
         unselectedIcon = Icons.Outlined.Wallet
     ),
     BottomNavigationItem(
-        title = "Notifications",
+        title = R.string.notifications,
         selectedIcon = Icons.Filled.Notifications,
         unselectedIcon = Icons.Outlined.Notifications
     ),
     BottomNavigationItem(
-        title = "Account",
+        title = R.string.account,
         selectedIcon = Icons.Filled.AccountCircle,
         unselectedIcon = Icons.Outlined.AccountCircle
     )

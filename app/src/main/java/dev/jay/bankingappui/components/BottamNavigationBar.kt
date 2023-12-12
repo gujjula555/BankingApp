@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import dev.jay.bankingappui.model.bottomNavigationItems
@@ -21,20 +22,20 @@ fun BottomNavigationBar() {
             val rootNavController = rememberNavController()
             val navBackStackEntry by rootNavController.currentBackStackEntryAsState()
             bottomNavigationItems.forEach { item ->
-                val isSelected = item.title.lowercase() == navBackStackEntry?.destination?.route
+                val isSelected = stringResource(id = item.title).lowercase() == navBackStackEntry?.destination?.route
                 NavigationBarItem(
                     selected = isSelected,
                     onClick = {},
                     icon = {
                         Icon(
                             imageVector = if (isSelected) item.selectedIcon else item.unselectedIcon,
-                            contentDescription = item.title,
+                            contentDescription = stringResource(id = item.title),
                             tint = MaterialTheme.colorScheme.onBackground
                         )
                     },
                     label = {
                         Text(
-                            text = item.title,
+                            text = stringResource(id = item.title),
                             color = MaterialTheme.colorScheme.onBackground
                         )
                     }
