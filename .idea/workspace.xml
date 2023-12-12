@@ -10,16 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cef0aac-461c-43f6-a954-05579f759fa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/AndroidBuild.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/components/BottamNavigationBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/components/BottamNavigationBar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/components/Components.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/components/Components.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/BottomNavigationItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/BottomNavigationItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Card.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Card.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Currency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Currency.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Finance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/jay/bankingappui/model/Finance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702300429579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor of code">
+      <created>1702357060937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702357060938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small needed initial changes done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small needed initial changes done" />
+    <MESSAGE value="Refactor of code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor of code" />
   </component>
 </project>
